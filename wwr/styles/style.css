@@ -1,41 +1,91 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Rosarivo:ital@0;1&display=swap');
 
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+nav a{
+    text-align: center;
+}
+#hero-msg h1, #hero-msg h4{
+    text-align: center;
+} 
+.button-box{
+    text-align: center;
+}
+main section{
+    text-align: center;
+}
+#background{
+    height: 725px;
+}
 body { 
-    /*text-align: center;*/
-    background-color: rgb(65, 225, 237)
+    text-align: center;
+    background-color: #283618 
 }
 header {
-    background-color: red;
+    background-color: #813405;
     font-size: 1.5em;
     font-family: serif;
 }
 a {
-    color: rgb(6, 6, 82)
+    color: rgb(4, 4, 67);
+    text-decoration: none; 
 }
-h1 {
-    font-size: 5em;
-    font-family: "Permanent Marker", serif;
-    margin: 0 auto;
+nav a:hover{
+    background-color: blue;
+    color: white;
 }
-h4 {
-    font-size: 3em;
+.book{
+    color:rgb(132, 132, 240);
+    text-decoration: none; 
 }
-#hero-msg{
-    font-size:1.5em;
-    font-family: "Rosarivo", sans-serif;
+.join{
+    color: rgb(132, 132, 240);
+    text-decoration: none; 
 }
-h2 {
-    font-size: 2.5em;
-    font-family: "Permanent Marker", serif;
+.book:hover{
+    background-color: blue;
+    color: white;
 }
-.msg {
-    font-size: 1.5em;
-    font-family: "Rosarivo", sans-serif;
+.join:hover{
+    background-color: blue;
+    color: white;
 }
-div.social img {
-    width: 70px;
+#background{
+    background: #606C38;
+    color: white;
 }
-img.card-img{
-    display: block;
-    margin: 0 auto;
+.msg{
+    background-color: #606C38;
+    color: #d6bfcf;
+}
+footer{
+    background-color: #647821;
+    color: #d693c2
+}
+.home-title{
+    color:#bdd471;
+}
+h4{
+    color: #bdd471;
+}
+footer a{
+    color: rgb(16, 16, 198);
+    text-decoration: none; 
+}
+footer a:hover{
+    color: rgb(132, 132, 240);
+}
+.logo{
+    width: 80px;
+}
+.icon{
+    width: 80px;
+}
+footer p{
+    font-size: 1.2em;
+}
+footer p a:hover{
+    text-decoration: underline;
 }

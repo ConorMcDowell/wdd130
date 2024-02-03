@@ -1,0 +1,42 @@
+:root{
+    --nav-hover-link-color: black; 
+    --title-color: white;
+}
+body{
+    text-align: center;
+    margin: 0 auto;
+    background-color: pink;
+    max-width: 420px;
+}
+.title{
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 750;
+    color: var(--title-color);
+}
+h1 a:hover{
+    color: var(--nav-hover-link-color);
+}
+.quote1{
+    font-size: 15px;
+    color: white;
+    font-family: serif;
+    font-weight: 100;
+}
+.name{
+    font-size: 15px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.gospel{ 
+    font-size: 15px;
+    color:black;
+    font-family: sans-serif;
+    font-weight: 750;
+    padding: 50px;
+}
+.president{
+    max-width: 200px;
+    padding: 50px;
+}
