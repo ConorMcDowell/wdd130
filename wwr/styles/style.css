@@ -24,12 +24,12 @@ body {
     background-color: #283618 
 }
 header {
-    background-color: #813405;
+    background-color: #a44e19;
     font-size: 1.5em;
     font-family: serif;
 }
 a {
-    color: rgb(4, 4, 67);
+    color: white;
     text-decoration: none; 
 }
 nav a:hover{
