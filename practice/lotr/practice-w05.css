@@ -1,18 +1,76 @@
 body{
-    border: 50px solid orange;
-    margin: 100px;
-    padding: 100px;
     background-color: black;
-    color: red;
-    text-align: center;
-    border-radius: 50%;
 }
 img {
-    width: 500px;
     padding: 50px;
+    width: 100px;
 }
-h1{
+.galadriel{
     font-family: serif;
-    font-size: 50px;
+    font-size: 20px;
+    font-weight: 50;
+    color: white;
+    border: 20px solid white;
+    padding: 100px;
+    text-align: center;
+    border-radius: 50%;
+    width: 50px; 
+    position: relative;
+    left: 475px;
+    bottom: 150px;
+    top: 100px;
+}
+h2{
+    border: 25px solid gold;
+    padding: 100px;
+    text-align: center;
+    border-radius: 50%;
+    width: 310px;
+    position: relative;
+    left: 350px;
+    bottom: 300px;
+    top: 300px;
+.ring{
+    font-family: serif;
+    font-size: 25px;
     font-weight: 100;
+    color: red;
+}
+}
+.elrond{
+    font-family: serif;
+    font-size: 20px;
+    font-weight: 50;
+    color: blue;
+    border: 20px solid blue;
+    padding: 100px;
+    text-align: center;
+    border-radius: 50%;
+    width: 50px; 
+    position: relative;
+    left: 100px;
+    bottom: 100px;
+    top: 400px;
+}
+.gandalf{
+    font-family: serif;
+    font-size: 20px;
+    font-weight: 50;
+    color: grey;
+    border: 20px solid grey;
+    padding: 100px;
+    text-align: center;
+    border-radius: 50%;
+    width: 50px;
+    position: relative;
+    left: 550px;
+    bottom: 100px;
+    top: 400px; 
+}
+body a:hover{
+    background-color: orange;
+    color: black;
+}
+body :hover{
+    background-color: red;
 }
