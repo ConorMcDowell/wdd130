@@ -1,0 +1,23 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+}
+.cherries{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 300px;
+}
+section{
+    font-size: 100px;
+    grid-column: 1/3;
+    grid-row: 2/4;
+    font-weight: 800;
+}
+p{
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(158, 8, 8);
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
