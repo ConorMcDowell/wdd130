@@ -2,28 +2,29 @@
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Rosarivo:ital@0;1&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #396E94   ;
-  --secondary-color: #E7C24F ;
-  --accent1-color: #A42212;
+  --primary-color: rgb(0, 0, 255)   ;
+  --secondary-color: rgb(255, 255, 0) ;
+  --accent1-color: rgb(255, 0, 0);
   --accent2-color: white;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "IM Fell French Canon SC";
-  --paragraph-font: Lato, Helvetica, sans-serif;
+  --heading-font: "Rosarivo", "IM Fell French Canon SC", serif;
+  --paragraph-font: "Permanent Marker", Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #396E94;  /* headlines on a white background */ 
-  --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #396E94  ;
-  --nav-link-color: #396E94;
-  --nav-background-color: #D4AC0D;
-  --nav-hover-link-color: white;
-  --nav-hover-background-color: #396E94;
+  --headline-color-on-white: red ;  /* headlines on a white background */ 
+  --headline-color-on-color: yellow; /* headlines on a colored background */ 
+  --paragraph-color-on-white: yellow ; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: yellow; /* paragraph text on a colored background */ 
+  --paragraph-background-color: blue   ;
+  --nav-link-color: red ;
+  --nav-background-color: blue;
+  --nav-hover-link-color: yellow;
+  --nav-hover-background-color: red ;
 }
 
 
@@ -35,10 +36,13 @@ body {
   padding: 4em;
   font-size: 18px;
   text-align: center;
+  background-color: black;
 }
 img {
   display: block;
   margin: 0 auto;
+  max-width: 200px;
+  max-height: 200px;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
