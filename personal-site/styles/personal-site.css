@@ -3,7 +3,7 @@ body{
     background-color: black;
 }
 #pic, #foto{
-    box-shadow: 5px 5px 5px #e2e5d8;
+    box-shadow: 5px 5px 5px red;
 }
 header{
     display: grid;
